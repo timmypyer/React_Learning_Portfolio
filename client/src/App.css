@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+* {
+   font-family: 'Open Sans', sans-serif;
+   color: white;
+   
+}
+
+ .home, .projects, .about, .contact, .hobbies, .hobbyForm{
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+

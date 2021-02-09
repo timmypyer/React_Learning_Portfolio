@@ -1,0 +1,48 @@
+[
+    {
+        "date": "2021-01-29",
+        "hobby": "Looking at pictures of cats on the internet",
+        "image": {
+            "src": "http://localhost:3001/images/cat.jpeg",
+            "alt": "A cat."
+        },
+        "description": "Adorable cat."
+    },
+    {
+        "date" : "2021-02-02",
+        "hobby":"Looking at pictures of cats on the internet",
+        "image": {
+            "src": "http://localhost:3001/images/cat.jpeg",
+            "alt": "A cat."
+        },
+        "description": "Adorable cat."
+    },
+    {
+        "date": "2021-03-29",
+        "hobby": "Looking at pictures of cats on the internet",
+        "image": {
+            "src": "http://localhost:3001/images/cat.jpeg",
+            "alt": "A cat."
+        },
+        "description": "Adorable cat."
+    },
+    {
+        "date": "2021-04-29",
+        "hobby": "Looking at pictures of cats on the internet",
+        "image": {
+            "src": "http://localhost:3001/images/cat.jpeg",
+            "alt": "A cat."
+        },
+        "description": "Adorable cat."
+    },
+    {
+        "date": "2021-05-29",
+        "hobby": "Looking at pictures of cats on the internet",
+        "image": {
+            "src": "http://localhost:3001/images/cat.jpeg",
+            "alt": "A cat."
+        },
+        "description": "Adorable cat."
+    }
+    
+]

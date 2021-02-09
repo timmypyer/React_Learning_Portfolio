@@ -1,0 +1,63 @@
+
+.card-list{
+    margin: 0 auto;
+    display: flex;
+    padding: 3rem;
+    overflow-x: scroll;
+    
+  }
+.card-list::-webkit-scrollbar{
+    width: 10px;
+    height: 10px;
+   
+}
+
+.card-list::-webkit-scrollbar-thumb {
+    background: #201c29;
+    border-radius: 50px;
+    box-shadow: inset 2px 2px 2px rgba(31, 29, 29, 0.25), inset -2px -2px px rgba(0,0,0,.25);
+}
+.card-list::-webkit-scrollbar-track{
+    background: linear-gradient(90deg, #201c29, #201c29 1px, #17141d 0, #17141d);
+
+}
+
+.card {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    height: 200px;
+    width:150px;
+    min-width: 150px;
+    padding: 2px;
+    z-index: 0;
+
+}
+
+.card{
+    border-radius: 16px;
+    background: rgb(51, 48, 48);
+    box-shadow: -10px 10px 30px 20px rgba(32, 31, 31, 1);
+
+    transition: .2s;
+}
+.card:hover{
+    transform: translateY(-1rem);
+}
+.card:hover~.card {
+    transform: translateX(1rem);
+    
+}
+.card:not(first-child){
+    margin-left: 15px;
+}
+img{
+   width: 4rem;
+   height:4rem; 
+}
+h3{
+    font-size: 14px;
+}
+p {
+    font-size: 10px;
+}
